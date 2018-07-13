@@ -1,0 +1,303 @@
+/* Gestion du header */
+header{
+    /* height: 200px; */
+    background-color: #2de02d;
+}
+.tel-soc{
+    background-color: #f5f5f5;
+    padding: 5px;
+}
+.tel{
+    padding-left: 10px; 
+}
+.social{
+    text-align: right;
+}
+.logoSocial{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+
+
+/* Gestion de la navbar */
+nav{
+    background-color: #2de02d;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: #0e76bb;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #f5f5f5;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0e76bb;
+}
+.scrollStyle{
+    background-color: rgba(45, 224, 45, 0.9);
+    transition: .8s;
+    padding: 10px;
+}
+
+/* Bouton boutique */
+.boutique{
+    width: 100%;
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+}
+.boutique a button{
+    border: 2px solid beige;
+    background-color: #0e76bb;
+}
+.boutique a button:hover{
+    cursor: pointer;
+}
+
+/* Section actualite */
+section{
+    padding-top: 10px;
+    background-color: #2de02d;
+}
+.canWrapper{
+    padding: 0;
+    margin: 0;
+}
+.resteActu{
+    background-color: #0e76bb;
+    padding-left: 0;
+    padding-right: 0;
+}
+.resteActu h3{
+    padding-top: 15px;
+    text-align: center;
+    color: beige;
+}
+.resteActu ul{
+    padding-top: 20px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+.resteActu ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    border-bottom: 1px solid lightgray;
+}
+.resteActu ul li:hover{
+    /* background-color: #075284; */
+    color: #2de02d;  
+    transition: 0.5s;
+    /* cursor: pointer; */
+}
+.resteActu ul li:hover>a{
+    color: #2de02d;
+    padding-left: 25px;
+    transition: 0.5s;  
+}
+.resteActu ul li a{
+    padding-left: 15px;
+    color: #f5f5f5;
+    transition: 0.5s;
+}
+.resteActu ul li a:hover{
+    text-decoration: none;
+    color: #2de02d;
+}
+/* Tab zone */
+.tabs{
+    margin-bottom: 0px;
+}
+.tabu{
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.onglets{
+    position: relative;
+    z-index: 4;
+    background-color: rgba(45, 224, 45, 0.479);
+}
+.onglets h3{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+.onglets ul{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+    list-style-type: none;
+}
+.onglets ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    border-bottom: 1px solid lightgray;
+}
+.onglets ul li:hover{
+    background-color: rgba(45, 224, 45, 0.743);
+    color: rgb(255, 255, 255);  
+    transition: 0.5s;
+    cursor: pointer;
+}
+.tabs .active{
+    background-color: rgba(45, 224, 45, 0.743);
+    color: rgb(255, 255, 255);  
+    transition: 0.5s;
+    cursor: pointer;
+}
+.onglets ul li:hover>a{
+    color:rgb(255, 255, 255);
+    padding-left: 25px;
+    transition: 0.5s;  
+}
+.onglets ul li a{
+    padding-left: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 520;
+    transition: 0.5s;
+}
+.onglets ul li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.referents{
+    padding: 20px;
+    background-color: #2de02d;
+    width: 100%;
+}
+.referents div{
+    display: none;
+    color: #fff;
+    text-align: justify;
+}
+.referents div h4{
+    text-align: center;
+}
+.referents .active{
+    display: block;
+}
+.referents figure{
+    text-align: center;
+    padding-top: 15px;
+}
+.referents figure img{
+    border-radius: 10px;
+}
+.referents .commerce{
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+/* Bloc video */
+video{
+    width: 100%;
+    height: 410px;
+}
+.video{
+    width: 100%;
+    height: 410px;
+}
+iframe{
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+}
+
+/* Partie formulaire */
+.bckF{
+    width: 100%;
+    background-image: url('../img/bckForm.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.wrapperF{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    background-color: rgba(45, 224, 45, 0.44);
+    padding-bottom: 20px;
+}
+.wrapperF h3{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wrapperF form{
+    width: 50%;
+}
+.text-muted {
+    color: rgb(255, 255, 255) !important;
+}
+.wrapperF form input{
+    border: none;
+    background-color: rgba(14, 118, 187, 0.7);
+}
+.wrapperF form input:focus{
+    border: 1px solid rgb(224, 255, 255);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.wrapperF form input:focus::placeholder{
+    color: #24242488;
+}
+.wrapperF form textarea{
+    border: none;
+    background-color: rgba(14, 118, 187, 0.4);
+}
+.wrapperF form textarea:focus{
+    border: 1px solid rgb(224, 255, 255);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.wrapperF form input::placeholder{
+    color: rgb(224, 224, 224);
+}
+.validBut{
+    text-align: center;
+}
+.validBut button{
+    width: 100%;
+}
+.validBut button:hover{
+    cursor: pointer;
+}
+
+/* Partie marques */
+.marques h3{
+    text-align: center;
+    color: #0e76bb;
+    padding: 20px 0 30px 0;
+}
+.marques{
+    padding: 20px 0 50px 0; 
+}
+
+/* Partie footer */
+.footer{
+    background-color: #0e76bb;
+}
+.footerBody{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.footerBody h4{
+    color: rgb(236, 236, 236);
+}
+.footerBody a, .footerBody p{
+    color: rgb(228, 228, 222);
+}
+.footerBody a:hover{
+    text-decoration: none;
+    color: #2de02d;
+    padding-left: 5px;
+    transition: 0.4s;
+}
+.ligne2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* Partie Map */
+#map{
+    width: 100%;
+    background-color: aquamarine;
+}
