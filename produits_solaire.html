@@ -1,0 +1,257 @@
+<!DOCTYPE>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, maximum-scale=1"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style_solaire.css" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        
+        <link rel="icon" type="image/png" href="img/logoTitle.png">
+
+        <title>Ets GI Energy | Panneaux Solaires</title>
+
+        <style>
+            body{
+                font-family: 'Raleway', sans-serif;
+            }
+            /* Set the size of the div element that contains the map */
+            #map {
+                height: 400px;  /* The height is 400 pixels */
+                width: 100%;  /* The width is the width of the web page */
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a href="index.html"><img src="img/logoTitle_nav.png"/ alt="logo GIE"><img src="img/textLogo_nav.png" alt="GI Energy" class="gie" /></a>
+                <!-- <ul class="navbar-nav mr-auto mx-auto"> -->
+                <ul class="navbar-nav" style="padding-left: 10px">
+                    <!-- <li class="nav-item active"> -->
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a> -->
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Produits
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="backup.html">Back-up</a>
+                            <a class="dropdown-item" href="convertisseurs.html">Convertisseurs</a>
+                            <a class="dropdown-item" href="eclairage.html">Eclairage et Lampadaires</a>
+                            <a class="dropdown-item" href="produits_solaire.html">Panneaux Solaires</a>
+                            <a class="dropdown-item" href="regulateurs.html">Régulateurs</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="produits_eoliens.html">Eoliennes</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="autres.html">Autres Produis</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="devis.html">Devis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="realisations.html">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="section2" style="height: 200px;background-image: url('img/covPan.jpg');"></div>
+        
+        <div class="container" style="padding: 20px 0 20px 0">
+            <h1 style="text-align:center; padding: 15px">Panneaux Solaires</h1><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <ol class="tabs">
+                        <li class="active">
+                            <a href="#" data-target="#carouselExampleIndicators" data-slide-to="0">
+                                Panneau Solaire Monocristallin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                Panneau Solaire Polycristallin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                Support Panneaux
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                Connecteur MC4
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                Panneau Solaire pour charger le Téléphone
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-target="#carouselExampleIndicators" data-slide-to="5">
+                                Les amorphes
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/carousel/ps1.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                Panneau Solaire Monocristallin
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carousel/ps2.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                Panneau Solaire Polycristallin
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carousel/ps3.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                Support Panneaux
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carousel/ps4.jpg" alt="fourth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                Connecteur MC4
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carousel/ps5.jpg" alt="fourth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                Panneau Solaire pour charger le Téléphone
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carousel/ps6.jpg" alt="fourth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                Les amorphes
+                            </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+     
+        <div class="row footer" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-md-8 footerBody">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Services</h4>
+                        <a href="#">Tous les service</a><br>
+                        <a href="#">Maintenance</a><br>
+                        <a href="#">Formation</a><br>
+                        <a href="#">Catalogue</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Commander</h4>
+                        <a href="#">Devis</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Adresse</h4>
+                        <p>Rue Dika Mpondo, Douala, Cameroun</p>
+                    </div>
+                </div>
+                <div class="row ligne2">
+                    <div class="col-md-4">
+                        <h4>A propos</h4>
+                        <a href="#">Réalisations</a><br>
+                        <a href="#">Galerie</a><br>
+                        <a href="#">Equipe</a><br>
+                        <a href="#">Partenaires</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Contacts</h4>
+                        <a href="#">(+237) 655 726 809</a><br>
+                        <a href="#">(+237) 676 233 213</a><br>
+                        <a href="#">etsglobal2017@gmail.com</a><br>
+                        <a href="#">nyajaures@yahoo.fr  </a>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Horaires</h4>
+                        <p>
+                            Lun - Ven: 7h-30 - 17h30<br>
+                            Samedi: 7h30 - 14h30
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="map">
+                    <script>
+                        // Initialize and add the map
+                        function initMap() {
+                            // The location of Uluru
+                            var gie = {lat: 4.048264, lng: 9.701682};
+                            // The map, centered at Uluru
+                            var map = new google.maps.Map(
+                                document.getElementById('map'), {zoom: 16, center: gie});
+                            // The marker, positioned at Uluru
+                            var marker = new google.maps.Marker({position: gie, map: map,});
+                        }
+                    </script>
+                </div>
+            </div>
+            <div class="row" style="margin-left: 0px; margin-right: 0px; border-top:2px solid #00709e; background-color:#0e76bb">
+                <p style="margin: 0 0 0 0; padding: 5px 5px 5px 50px; color: rgb(212, 212, 195);">&copy; 2018 Global International Energy</p>
+            </div>
+    
+    
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUxJj-3EE-KcosL2fMekGwCQQwc44Lm4M&callback=initMap">
+            </script>
+    </body>
+</html>
